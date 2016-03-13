@@ -19,7 +19,8 @@ TODO - A collection of client side javaScript debugging utilities, collated from
   * https://github.com/Malharhak/Javascript-Better-Debug
   * https://github.com/BYU-IS-Media/JavaScript-DebugTools
   * https://github.com/centurianii/g3debug
-  * https://github.com/stulevine/console.js
+  * https://github.com/icodeforlove/Console.js (css stylizer)
+  * https://github.com/stulevine/console.js (popup console)
   * https://github.com/david-risney/PromiseVisualizer
   * https://github.com/cre4nslab/SmartLogger
   * https://github.com/MartinBlackburn/Website-Debugger
