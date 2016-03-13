@@ -1,0 +1,16 @@
+#test-message {
+      /* Vivid Ventures Debug style  */
+      /* for ddm debugDisplayMessage */
+
+    position: fixed;
+    top: 55px;
+    right: 0;
+    width: 400px;
+    height: auto;
+    border: 3px solid #3E3F3A;
+    background-color: #e5e5cc;
+    padding: 5px;
+    z-index: 2;
+   /* display: none; */
+    display: inline;
+}

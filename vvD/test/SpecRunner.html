@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--  SpecRunner.html
+      https://github.com/jasmine/jasmine/blob/master/grunt/templates/SpecRunner.html.jst
+ -->
+
+ <html>
+  <head>
+     <title>SpecRunner.html</title>
+     <meta charset="UTF-8">
+
+    <!-- cdnjs.cloudflare.com -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.4.1/jasmine.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.4.1/jasmine.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.4.1/jasmine-html.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.4.1/boot.min.js"></script>
+
+
+    <!-- For testng a DOM event
+      Reference:  https://github.com/velesin/jasmine-jquery
+      Tutorial:
+        http://www.htmlgoodies.com/beyond/javascript/js-ref/testing-dom-events-using-jquery-and-jasmine-2.0.html
+
+      Employing the low volume cdn https://rawgit.com/   , the order of loading matters, jquery must be loaded first.
+         https://rawgit.com/velesin/jasmine-jquery/master/lib/jasmine-jquery.js
+    -->
+
+    <!-- Software Under Test, source files-->
+    <script type="text/javascript" src="../js/vvD_module.js"></script>
+
+    <!-- Spec files -->
+    <script type="text/javascript" src="spec/tests_for_vvD_module.js"></script>
+
+  </head>
+
+
+   <body>
+
+   	<!-- For debugging -->     <!-- these tags are under test -->
+    <link rel="stylesheet" href="../css/vvD_style.css"/>
+    <pre>
+      <div id="test-message">Enter a debug message at id=test-message</div>
+    <pre>
+
+   </body>
+</html>
